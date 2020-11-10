@@ -87,7 +87,6 @@ echo "
                                     }  
                                 echo "</select>
                                         <br>
-
                                         <label>Chọn Thợ phụ nếu cần  :</label>
                                         <textarea style='width: 100%; hight:120px;' name='phu'></textarea>
                                 </div>
@@ -99,8 +98,7 @@ echo "
                         </div>
                     </div>
                 </div>
-                &nbsp"; echo "<a href='".BASE_URL."includes/logic/suaKH.php?id_cus=".$row2['id_cus']."&action=sua&nv=".$ruser['real_name']." 'class='btn btn-sm btn-success'> Sửa</a>"; echo "&nbsp"; echo "<a href='".BASE_URL."includes/logic/suaKH.php?id_cus=".$row2['
-                   id_cus']."&action=coppy&nv=".$ruser['real_name']." 'class='btn btn-sm btn-info'>x2</a>"; echo "&nbsp"; echo"
+                &nbsp"; echo "<a href='".BASE_URL."includes/logic/suaKH.php?id_cus=".$row2['id_cus']."&action=sua&nv=".$ruser['real_name']." 'class='btn btn-sm btn-success'> Sửa</a>"; echo "&nbsp"; echo "<a href='".BASE_URL."includes/logic/suaKH.php?id_cus=".$row2['id_cus']."&action=coppy&nv=".$ruser['real_name']." 'class='btn btn-sm btn-info'>x2</a>"; echo "&nbsp"; echo"
                 <button type='button' class='btn btn-sm btn-danger' data-toggle='modal' data-target='#my".$row2['id_cus']."'>Hủy</button>
                 <!-- Modal -->
                 <div id='my".$row2['id_cus']."' class='modal fade' role='dialog'>

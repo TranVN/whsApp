@@ -95,7 +95,7 @@
                                         <h4 class='modal-title'>Chọn Thợ Bạn Muốn phân</h4>
                                     </div>
                                     <div class='modal-body'>
-                                        <form action='includes/logic/XL_phan_lich.php' method='POST' class='hop'>
+                                        <form action='includes/logic/XL_phan_lich.php' method='POST' class='modal-body'>
                                             <label>Chọn Thợ cần Phân :</label>
                                             <input type='hidden' name='ac' value='phantho' />
                                             <input type='hidden' name='nv' value='".$ruser['real_name']."'/>
@@ -112,17 +112,17 @@
                                             echo "</select>
                                             <br>
                                             <label>Chọn Thợ phụ nếu cần  :</label>
-                                            <textarea style='width: 100%; hight:120px;' name='phu'></textarea>
+                                            <textarea style='width: 100%; hight:120px;' name='phu'></textarea> 
+                                            <div class='modal-footer'>
+                                                <input type='submit'  value='Xác Nhận' class='btn btn-success' />
+                                                <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
+                                            </div>
                                         </form>
-                                    <div class='modal-footer'>
-                                        <input type='submit' value='Xác Nhận' class='btn btn-success' />
-                                        <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                     &nbsp"; echo "<a href='".BASE_URL."includes/logic/suaKH.php?id_cus=".$row['id_cus']."&action=sua&nv=".$ruser['real_name']." 'class='btn btn-sm btn-success'> Sửa</a>"; echo "&nbsp"; echo "<a href='".BASE_URL."includes/logic/suaKH.php?id_cus=".$row['id_cus']."&action=coppy&nv=".$ruser['real_name']." 'class='btn btn-sm btn-info'>x2</a>"; echo "&nbsp"; echo"<button type='button' class='btn btn-sm btn-danger' data-toggle='modal' data-target='#my".$row['id_cus']."'>Hủy</button>
                     <!-- Modal -->
                         <div id='my".$row['id_cus']."' class='modal fade' role='dialog'>

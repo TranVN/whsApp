@@ -10,7 +10,7 @@
         <div class='col-xs-12'>
             <div class='box'>
                 <div class='box-header' style ='border: 1px solid #d2d6de; border-radius:5px; margin-top:5px; box-shadow: 5px 10px #d2d6de;'>
-                    <h3 class='box-title'>Lịch Chưa Phân</h3>
+                    <h3 class='box-title'>Thêm Khách Hàng</h3>
                     <div class='box-tools'>
                         <div class='input-group input-group-sm'>
                             <button type='button' class='btn btn-block btn-info' data-toggle='modal' data-target='#hihi'><i class='fa fa-user-plus'></i></button>
@@ -843,7 +843,7 @@ elseif($a=='imp')
   echo "
   <section >
   <!-- /.content -->
-  <div> class='col-xs-12'>
+  <div class='col-xs-12'>
         <div class='box'>
           <div class='box-header'>
           <h3 class='box-title'>Nhập Dữ liệu từ file Exel </h3> 
