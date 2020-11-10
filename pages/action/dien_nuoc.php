@@ -84,11 +84,12 @@ echo "
                                                         <label>Chọn Thợ phụ nếu cần  :</label>
                                                         <textarea style='width: 100%; hight:120px;' name='phu'></textarea>
                                                     
-                                                </div>
-                                                <div class='modal-footer'>
-                                                    <input type='submit' value='Xác Nhận' class='btn btn-success'/>   <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
-                                                </div>
+                                                    
+                                                    <div class='modal-footer'>
+                                                        <input type='submit' value='Xác Nhận' class='btn btn-success'/>   <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
+                                                    </div>
                                                 </form>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>

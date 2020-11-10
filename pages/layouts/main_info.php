@@ -94,7 +94,8 @@
                                                 </div>
                                             
                                         </div>
-                                        <div class='modal-footer'></div></form>
+                                        <div class='modal-footer'></div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
