@@ -90,14 +90,18 @@
                             <div class='modal-dialog'>
                                 <!-- Modal content-->
                                 <div class='modal-content'>
+                                <form action='includes/logic/XL_phan_lich.php' method='POST' class='hop'>
                                     <div class='modal-header'>
                                         <button type='button' class='close' data-dismiss='modal'>&times;</button>
                                         <h4 class='modal-title'>Chọn Thợ Bạn Muốn phân</h4>
                                     </div>
                                     <div class='modal-body'>
+
                                         <form action='includes/logic/XL_phan_lich.php' method='POST' class='modal-body'>
+
                                             <label>Chọn Thợ cần Phân :</label>
                                             <input type='hidden' name='ac' value='phantho' />
+                                            <input type='hidden' name='ki' value='' />
                                             <input type='hidden' name='nv' value='".$ruser['real_name']."'/>
                                             <input type='hidden' name='id_cus' value='".$row['id_cus']."'/>
                                             <input type='hidden' name='note' value='".$row['note_book']."'/>
@@ -112,14 +116,24 @@
                                             echo "</select>
                                             <br>
                                             <label>Chọn Thợ phụ nếu cần  :</label>
+
                                             <textarea style='width: 100%; hight:120px;' name='phu'></textarea> 
                                             <div class='modal-footer'>
                                                 <input type='submit'  value='Xác Nhận' class='btn btn-success' />
                                                 <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
                                             </div>
                                         </form>
+
+                                            <textarea style='width: 100%; hight:120px;' name='phu'></textarea>
+                                           
+                                    <div class='modal-footer'>
+                                        <input type='submit' value='Xác Nhận' class='btn btn-success' />
+                                        <button type='button' class='btn btn-danger' data-dismiss='modal'>Close</button>
+
                                     </div>
-                                </div>
+                                    </div>
+                                    </form>
+                                
                             </div>
                         </div>
                     </div>
